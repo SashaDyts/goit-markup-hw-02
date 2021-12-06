@@ -139,13 +139,22 @@ body {
 
 .footer-contacts {
   font-style: normal;
+  background-color: teal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--primary-white-color);
+}
+.footer-contacts-list .link {
+  font-style: normal;
 
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--primary-white-color);
 }
-.footer-contacts .link {
+
+.footer-contacts-list .link.contacts {
   color: var(--secondary-white-color);
 }
 .footer-contacts .link:hover,

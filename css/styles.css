@@ -131,6 +131,7 @@ body {
 /* Footer */
 .page-footer {
   background-color: var(--hero-footer-bg-color);
+  background-color: teal;
 }
 
 .logo-studio-white {
@@ -139,7 +140,7 @@ body {
 
 .footer-contacts {
   font-style: normal;
-  background-color: teal;
+
   font-size: 14px;
   line-height: 1.71;
 

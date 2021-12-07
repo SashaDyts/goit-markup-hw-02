@@ -70,7 +70,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 
 .header-contacts .link:hover,
@@ -79,6 +79,10 @@ body {
 }
 
 /* Hero */
+.hero {
+  background-color: teal;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -110,7 +114,7 @@ body {
   text-transform: uppercase;
 }
 
-.features .title {
+.features .text {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -138,14 +142,6 @@ body {
   color: var(--primary-white-color);
 }
 
-.footer-contacts {
-  font-style: normal;
-
-  font-size: 14px;
-  line-height: 1.71;
-
-  color: var(--primary-white-color);
-}
 .footer-contacts-list .link {
   font-style: normal;
 

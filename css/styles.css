@@ -15,7 +15,6 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  /* background-color: orangered; */
 }
 
 /* Utility */
@@ -48,7 +47,7 @@ body {
   color: var(--primary-blue-accent-color);
 }
 
-.logo-studio-black {
+.logo.studio-black {
   color: var(--primary-black-color);
 }
 
@@ -61,7 +60,7 @@ body {
 }
 
 .site-nav .link:hover,
-.link:focus {
+.site-nav .link:focus {
   color: var(--primary-blue-accent-color);
 }
 
@@ -74,13 +73,13 @@ body {
 }
 
 .header-contacts .link:hover,
-.link:focus {
+.header-contacts .link:focus {
   color: var(--primary-blue-accent-color);
 }
 
 /* Hero */
 .hero {
-  background-color: teal;
+  background-color: var(--hero-footer-bg-color);
 }
 
 .hero-title {
@@ -135,10 +134,9 @@ body {
 /* Footer */
 .page-footer {
   background-color: var(--hero-footer-bg-color);
-  background-color: teal;
 }
 
-.logo-studio-white {
+.logo.studio-white {
   color: var(--primary-white-color);
 }
 
@@ -165,6 +163,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   text-align: center;
 
   background-color: var(--button-deactive-color);
